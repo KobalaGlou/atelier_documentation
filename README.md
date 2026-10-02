@@ -6,10 +6,13 @@ Objectif : prédire le prix de l'essence d'une ville à partir de son État et d
 ## Démarrage rapide
 
 ```bash
-git clone <url-du-repo>
-cd fuel-price-india
+git clone https://github.com/KobalaGlou/atelier_documentation.git
+cd atelier_documentation
 python -m venv .venv
-# Windows : .venv\Scripts\activate      macOS / Linux : source .venv/bin/activate
+# Activer l'environnement :
+#   Git Bash          : source .venv/Scripts/activate
+#   PowerShell        : .venv\Scripts\Activate.ps1
+#   macOS / Linux     : source .venv/bin/activate
 pip install -r requirements.txt
 python run_pipeline.py
 ```
@@ -17,7 +20,7 @@ python run_pipeline.py
 ## Structure
 
 ```
-fuel-price-india/
+atelier_documentation/
 ├── data/raw/fuel_price_india.arff   données d'entrée (seul fichier de données versionné)
 ├── src/
 │   ├── config.py                    chemins et paramètres partagés
