@@ -1,0 +1,20 @@
+# Fichiers générés par le pipeline : ils ne sont PAS versionnés.
+# Chaque développeur les régénère avec : python run_pipeline.py
+data/processed/
+figures/
+models/
+docs/model_cards/
+docs/generated/
+
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Système / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
